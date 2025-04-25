@@ -77,7 +77,7 @@ const App = () => {
       <header className="p-6 border-b border-blue-800/30">
         <div className="container mx-auto">
           <motion.h1
-            className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500"
+            className="text-3xl text white font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500"
             initial={{ y: -20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.2 }}
@@ -85,7 +85,7 @@ const App = () => {
             Solana Analytics Dashboard
           </motion.h1>
           <motion.p
-            className="text-blue-300 mt-2"
+            className="text-white mt-2"
             initial={{ y: -20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.3 }}
